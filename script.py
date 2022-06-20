@@ -15,6 +15,12 @@ for oneToFifty in range(51):
         continue
     print(oneToFifty)
 
+# Made a second integer iteration.
+# 1.The number is always printed.
+# 2.For odd numbers print "oddBall"
+# 3.For even numbers print "EvenSteven"
+# 4.For multiples of five print "HighFive"
+# 5.Except, for every other five print "EveryOtherFive"
 
 for oneToOneHundred in range(101):
     if oneToOneHundred % 2 == 0 and oneToOneHundred % 5 == 0:
