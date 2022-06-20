@@ -14,3 +14,17 @@ for oneToFifty in range(51):
         print("Computing")
         continue
     print(oneToFifty)
+
+
+for oneToOneHundred in range(101):
+    if oneToOneHundred % 2 == 0 and oneToOneHundred % 5 == 0:
+        print(oneToOneHundred,"EveryOtherFive")
+        continue
+    elif oneToOneHundred % 2 == 0 :
+        print(oneToOneHundred,"EvenSteven")
+        continue
+    elif oneToOneHundred % 5 == 0:
+        print(oneToOneHundred,"HighFive")
+        continue
+    print(oneToOneHundred,"oddBall")
+
